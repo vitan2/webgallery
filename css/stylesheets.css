@@ -1,12 +1,12 @@
 
 body {
-  background-color: #c4dce1; /* change background color */
+  background-color: #778899; /* change background color */
   text-align: center;
-  color: #000;  /* change font color */
+  color: #D3D3D3;  /* change font color */
   line-height: 36px;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Castellar', Helvetica, sans-serif;
 }
 
 body,html {
@@ -19,17 +19,17 @@ a, a:active, a:visited {
 
 h1, h2, h3, h4 {
   font-weight: 300;
-  letter-spacing: 2px; /* change */
+  letter-spacing: 0px; /* change */
 }
 
 h1 {
-  font-size: 36px; /* change */
+  font-size: 38px; /* change */
   line-height: 36px;
   margin: 1.6875rem 0;
 }
 
 #container {
-  background-image: url("../img/cement.jpg"); /* change */
+  background-image: url("../img/tanvivian_bridgebkgd.jpg"); /* change */
   min-height: 100%;
   max-width: 960px;
   margin: 0 auto;

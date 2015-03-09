@@ -1,10 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body background="http://cdn.morguefile.com/imageData/public/files/h/hilarycl/09/l/14107128571kns6.jpg">
+
+</body>
+</html>
+
+
 * {
   box-sizing: border-box;
 }
 body {
   color: #333333;   
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #c4dce1;                      /*change your Bkg color*/
+  font-family: 'Castellar', Helvetica, Arial, sans-serif;
+  background-color: #778899;                      /*change your Bkg color*/
 }
 
 a, a:active, a:visited {
@@ -13,7 +21,7 @@ a, a:active, a:visited {
 
 .content {
   margin: 0 auto;
-  min-width: 480px;
+  min-width: 480px; 
   padding-left: 20px;
 }
 
@@ -25,7 +33,7 @@ footer {
 }
 
 footer p {
-  font-size: 18px;                 /*font size in footer*/
+  font-size: 15px;                 /*font size in footer*/
   padding: 0;
   margin: 0;
 }
@@ -33,7 +41,7 @@ footer p {
 header {
   background: #C8C1B7;
   border-bottom: 1px solid #999999;
-  background-image: url("../img/gallerybanner.jpg"); /*change your banner image*/
+  background-image: url("../img/tanvivian_koibanner.jpg"); /*change your banner image*/
   height: 60px;
   position: relative;
   width: 100%;
@@ -41,7 +49,7 @@ header {
 
 header h1 {
   float: left;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 300;
   margin: 0;
 }
@@ -67,18 +75,18 @@ header nav > ul li {
 }
 
 header nav > ul li:hover, header nav > ul li.active {
-  border-bottom-color: #0066CC;
+  border-bottom-color: #F5F5DC;
 }
 
 header nav > ul li:hover a, header nav > ul li.active a {
-  color: #0066CC;
+  color: #F5F5DC;
 }
 
 header nav a, header nav a:visited {
   display: block;
   line-height: 60px;
   text-decoration: none;
-  color: #000000;                         /*changes banner text color*/
+  color: #FFFFFF;                         /*changes banner text color*/
   transition: color 200ms ease-in-out;
 }
 
@@ -90,7 +98,7 @@ header nav a, header nav a:visited {
 .gallery li {
   background-color: #333333;
   border: 1px solid #999999;
-  border-radius: 2px;
+  border-radius: 5px;
   float: left;
   list-style-type: none;
   padding: 5px;
@@ -98,7 +106,7 @@ header nav a, header nav a:visited {
 }
 
 .gallery li img {
-  border-radius: 2px;
+  border-radius: 5px;
   vertical-align: top;
   height: 200px;
   width: 200px;
